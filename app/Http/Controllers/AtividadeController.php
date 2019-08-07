@@ -16,7 +16,7 @@ class AtividadeController extends Controller
      */
     public function index()
     {
-        $listaAtividades = Atividade::all();
+        $listaAtividades = Atividade::paginate(3);
         return view('atividade.list',['atividades' => $listaAtividades]);
     }
 

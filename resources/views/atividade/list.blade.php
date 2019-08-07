@@ -19,6 +19,8 @@
 	<br>
 @endforeach
 
+{{ $atividades->links() }}
+
 @if(Auth::check())
 <a href="/atividades/create">Criar nova Atividade</a>
 @endif

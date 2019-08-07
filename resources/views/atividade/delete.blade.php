@@ -8,4 +8,4 @@
 				<p class="text-center"><button type="submit" class="btn btn-danger btn-lg">Deletar</button></p>
 			</form>
 
-</form>
+</form>	

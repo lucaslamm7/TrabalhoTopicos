@@ -17,7 +17,7 @@ class MensagemController extends Controller
      */
     public function index()
     {
-        $listaMensagens = mensagens::all();
+        $listaMensagens = mensagens::paginate(3);
         return view('mensagens.list',['mensagens' => $listaMensagens]);
         }
 

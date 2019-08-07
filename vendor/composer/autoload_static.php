@@ -84,6 +84,10 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         array (
             'Illuminate\\' => 11,
         ),
+        'G' => 
+        array (
+            'Greggilbert\\Recaptcha\\' => 22,
+        ),
         'F' => 
         array (
             'Fideloper\\Proxy\\' => 16,
@@ -238,6 +242,10 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
         ),
+        'Greggilbert\\Recaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/greggilbert/recaptcha/src',
+        ),
         'Fideloper\\Proxy\\' => 
         array (
             0 => __DIR__ . '/..' . '/fideloper/proxy/src',
@@ -329,6 +337,7 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\MensagemController' => __DIR__ . '/../..' . '/app/Http/Controllers/MensagemController.php',
         'App\\Http\\Controllers\\exercicioController' => __DIR__ . '/../..' . '/app/Http/Controllers/exercicioController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
@@ -896,6 +905,12 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/ValidGenerator.php',
         'Fideloper\\Proxy\\TrustProxies' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustProxies.php',
         'Fideloper\\Proxy\\TrustedProxyServiceProvider' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustedProxyServiceProvider.php',
+        'Greggilbert\\Recaptcha\\Facades\\Recaptcha' => __DIR__ . '/..' . '/greggilbert/recaptcha/src/Facades/Recaptcha.php',
+        'Greggilbert\\Recaptcha\\Recaptcha' => __DIR__ . '/..' . '/greggilbert/recaptcha/src/Recaptcha.php',
+        'Greggilbert\\Recaptcha\\RecaptchaServiceProvider' => __DIR__ . '/..' . '/greggilbert/recaptcha/src/RecaptchaServiceProvider.php',
+        'Greggilbert\\Recaptcha\\Service\\CheckRecaptcha' => __DIR__ . '/..' . '/greggilbert/recaptcha/src/Service/CheckRecaptcha.php',
+        'Greggilbert\\Recaptcha\\Service\\CheckRecaptchaV2' => __DIR__ . '/..' . '/greggilbert/recaptcha/src/Service/CheckRecaptchaV2.php',
+        'Greggilbert\\Recaptcha\\Service\\RecaptchaInterface' => __DIR__ . '/..' . '/greggilbert/recaptcha/src/Service/RecaptchaInterface.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -1404,6 +1419,7 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         'Illuminate\\Foundation\\Testing\\WithoutEvents' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Testing/WithoutEvents.php',
         'Illuminate\\Foundation\\Testing\\WithoutMiddleware' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Testing/WithoutMiddleware.php',
         'Illuminate\\Foundation\\Validation\\ValidatesRequests' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php',
+        'Illuminate\\Hashing\\AbstractHasher' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Hashing/AbstractHasher.php',
         'Illuminate\\Hashing\\ArgonHasher' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Hashing/ArgonHasher.php',
         'Illuminate\\Hashing\\BcryptHasher' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Hashing/BcryptHasher.php',
         'Illuminate\\Hashing\\HashManager' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Hashing/HashManager.php',
@@ -2785,6 +2801,7 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         'Psy\\Command\\SudoCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/SudoCommand.php',
         'Psy\\Command\\ThrowUpCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/ThrowUpCommand.php',
         'Psy\\Command\\TimeitCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/TimeitCommand.php',
+        'Psy\\Command\\TimeitCommand\\TimeitVisitor' => __DIR__ . '/..' . '/psy/psysh/src/Command/TimeitCommand/TimeitVisitor.php',
         'Psy\\Command\\TraceCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/TraceCommand.php',
         'Psy\\Command\\WhereamiCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/WhereamiCommand.php',
         'Psy\\Command\\WtfCommand' => __DIR__ . '/..' . '/psy/psysh/src/Command/WtfCommand.php',
@@ -3574,6 +3591,7 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         'Symfony\\Component\\VarDumper\\Dumper\\HtmlDumper' => __DIR__ . '/..' . '/symfony/var-dumper/Dumper/HtmlDumper.php',
         'Symfony\\Component\\VarDumper\\Dumper\\ServerDumper' => __DIR__ . '/..' . '/symfony/var-dumper/Dumper/ServerDumper.php',
         'Symfony\\Component\\VarDumper\\Exception\\ThrowingCasterException' => __DIR__ . '/..' . '/symfony/var-dumper/Exception/ThrowingCasterException.php',
+        'Symfony\\Component\\VarDumper\\Server\\Connection' => __DIR__ . '/..' . '/symfony/var-dumper/Server/Connection.php',
         'Symfony\\Component\\VarDumper\\Server\\DumpServer' => __DIR__ . '/..' . '/symfony/var-dumper/Server/DumpServer.php',
         'Symfony\\Component\\VarDumper\\Test\\VarDumperTestTrait' => __DIR__ . '/..' . '/symfony/var-dumper/Test/VarDumperTestTrait.php',
         'Symfony\\Component\\VarDumper\\VarDumper' => __DIR__ . '/..' . '/symfony/var-dumper/VarDumper.php',
